@@ -1,3 +1,29 @@
-body {
-    background-color: pink;
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.main-content {
+    background-color:  lightgray;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.content {
+    background-color: white;
+    border: 1px solid gray;
+    min-height: 500px;
+    width: 70%;
+}
+
+.lateral {
+    background-color: darkgray;
+    min-height: 500px;
+    width: 25%;
 }
