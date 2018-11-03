@@ -25,9 +25,10 @@ body {
 
 div[class*="item-"] {
     background-color: orange;
+    border: 2px solid blue;
+    flex: 1;
     padding:  10px;
     text-align: center;
-    border: 2px solid blue;
 }
 
 div[class*="item-"]:nth-child( odd ) {
