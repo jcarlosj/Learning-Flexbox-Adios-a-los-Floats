@@ -19,11 +19,17 @@ body {
 
 .main-content {
     background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
     font-family: sans-serif;
     min-height: 100px;
     padding: 20px;
     text-align: center;
     width: 500px;
+}
+
+h1 {
+    flex-basis: 100%;
 }
 
 .content {
