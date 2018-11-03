@@ -20,6 +20,7 @@ body {
 
 .main-content {
     border: 20px solid white;
+    display: flex;
 }
 
 div[class*="item-"] {
