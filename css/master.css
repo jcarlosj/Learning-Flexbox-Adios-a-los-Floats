@@ -18,12 +18,14 @@ html {
 .content {
     background-color: white;
     border: 1px solid gray;
+    float: left;
     min-height: 500px;
     width: 70%;
 }
 
 .lateral {
     background-color: darkgray;
+    float: right;
     min-height: 500px;
     width: 25%;
 }
