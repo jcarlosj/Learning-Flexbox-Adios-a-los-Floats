@@ -29,3 +29,7 @@ html {
     min-height: 500px;
     width: 25%;
 }
+
+.clearfix {
+    clear: both;
+}
