@@ -1,15 +1,26 @@
 *,*:before, *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 .main-content {
-    background-color:  lightgray;
+    background-color: lightgray;
     font-family: sans-serif;
-    margin: 0 auto;
+    min-height: 100px;
     padding: 20px;
     text-align: center;
     width: 500px;
@@ -18,18 +29,13 @@ html {
 .content {
     background-color: white;
     border: 1px solid gray;
-    float: left;
+    display: flex;
     min-height: 500px;
     width: 70%;
 }
 
 .lateral {
     background-color: darkgray;
-    float: right;
     min-height: 500px;
     width: 25%;
-}
-
-.clearfix {
-    clear: both;
 }
